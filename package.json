@@ -1,8 +1,12 @@
 {
-  "name": "react-dispatchable",
+  "name": "react-dispatchable-hook",
   "version": "0.1.0",
-  "main": "./lib/index.ts",
+  "main": "./lib/useDispatchable.js",
   "license": "MIT",
+  "description": "Functional local state management for ReactJS and TypeScript",
+  "author": "Hendrik Belitz <hendrik@innovation-through-understanding.de>",
+  "repository": "https://github.com/Innovation-through-understanding/react-dispatchable",
+  "files": ["lib"],
   "dependencies": {
   },
   "devDependencies": {
