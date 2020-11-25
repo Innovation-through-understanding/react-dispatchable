@@ -1,6 +1,6 @@
 {
   "name": "react-dispatchable-hook",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./lib/useDispatchable.js",
   "license": "MIT",
   "description": "Functional local state management for ReactJS and TypeScript",

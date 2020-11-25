@@ -87,7 +87,6 @@ describe("useDispatchable", () => {
         }, 450));
         fireEvent.click(body.getByTestId("flutch" as any)); 
         await new Promise<void>(r => setTimeout(() => {
-            console.warn((body.getByTestId("state" as any) as any));
             expect(body.getByTestId("state" as any)).toHaveTextContent("0");
             r();
         }, 450));

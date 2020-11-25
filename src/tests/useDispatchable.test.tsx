@@ -9,7 +9,7 @@ type Actions = "inc" | "dec" | "fetch" | "got";
 interface State {counter: number}
 
 
-const reduce = (state: State, action: Actions, dispatch: Task<Actions>): State => {
+const reduce = (state: Readonly<State>, action: Actions, dispatch: Task<Actions>): Readonly<State> => {
     switch(action) {
         case "inc": return {counter: state.counter + 1};
         case "dec": return {counter: state.counter - 1};
